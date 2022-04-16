@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Foodie App</title>
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+
+	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="default.css">
+
+
+	<style type="text/css">
+		.img-container {
+			max-width: 600px;
+		}
+
+		img {
+			width: 100%
+		}
+	</style>
+
+</head>
+
+<body>
+	<div class="nav-wrapper">
+
+		<!-- Link around dots-wrapper added after tutorial video -->
+		<a href="index.html">
+			<div class="dots-wrapper">
+				<div id="dot-1" class="browser-dot"></div>
+				<div id="dot-2" class="browser-dot"></div>
+				<div id="dot-3" class="browser-dot"></div>
+			</div>
+		</a>
+
+		<ul id="navigation">
+			<li><a href="index.html#contact">Contact</a></li>
+
+		</ul>
+	</div>
+
+	<div class="main-container">
+		<br>
+
+		<div class="img-container">
+			<img src="images/ZomatoHome.JPG">
+		</div>
+
+		<h3> Foodie Application</h3>
+		<p>This was a project I started to develop as my Final Project for the NIIT course completion.
+			<br>
+			<br>
+			The Project Uses Role Based Authorization. Various roles such as admin, manager and user is present.
+			<br>
+			<br>
+			Admin can do CRUD on the data of Restaurants. Recevies Request from the Manager and able to Choose
+			accordingly.
+			<br>
+			<br>
+			Restaurant Manager can fo CRUD on Dishes present as well send request to Admin for certains Updation in
+			Restaurant data.
+			<br>
+			<br>
+			All Users can Search for Restaurant/Cuisine based on their choice and also the city where they are located
+			and only after Logging in they can Favourite their favourite Restaurant.
+			<br>
+			<br>
+			I worked on this project for 3 weeks.
+		</p>
+
+		<h5>Technologies:</h5>
+		<ul>
+			<li>- Java + Spring Framework</li>
+			<li>- Angular</li>
+			<li>- MySql</li>
+			<li>- MongoDb</li>
+			<li>- Rabbitmq</li>
+			<li>- Docker</li>
+		</ul>
+		<h5>System Design</h5>
+		<div class="img-container">
+			<img src="images/Copy of FoodieApp_Architecture.jpg">
+		</div>
+	</div>
+
+	<h5>Role Based Menus</h5>
+	<div class="roles">
+		<div class="img-container">
+			<p>User</p><img src="images/UserPage.JPG">
+		</div>
+		<div class="img-container">
+			<p>Manager</p><img src="images/RestaurantOwner.JPG">
+		</div>
+		<div class="img-container">
+			<p>Admin</p><img src="images/AdminPage.JPG">
+		</div>
+	</div>
+	<h5>Search Operation</h5>
+	<div class="search">
+		<div class="img-container">
+			<p>Search Based On City</p><img src="images/SearchCity.JPG">
+		</div>
+		<div class="img-container">
+			<p>List Of Restaurants</p><img src="images/SearchFun.JPG">
+		</div>
+		<div class="img-container">
+			<p>Search Based On Restaurants OR Cuisine</p><img src="images/SearchCuisine.JPG">
+		</div>
+	</div>
+
+
+	<h5>Management System</h5>
+	<div class="management">
+		<div class="img-container">
+			<p>Admin Dashboard</p>
+			<img src="images/AdminOperation.JPG">
+			<img src="images/AdminApproval.JPG">
+		</div>
+
+
+		<div class="img-container">
+			<p>Manager Dashboard</p><img src="images/RestaurantOwnerOp.JPG">
+		</div>
+
+
+
+	</div>
+	<h5>View Favourite Restaurants</h5>
+	<div class="img-container">
+		<img src="images/AddingToFav.JPG">
+	</div>
+
+	<h5>Thank you</h5>
+
+</body>
+
+</html>
