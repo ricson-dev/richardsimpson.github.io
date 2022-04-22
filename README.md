@@ -1,3 +1,4 @@
-# My Profile
+# Profile Details
 
-Unique way of doing things
+Created my profile to showcase my projects.
+This is my profile
